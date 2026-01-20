@@ -1,6 +1,6 @@
 import { GlobalIntelState, RSSItem, NewsAnalysis } from "../types";
 
-const OPENROUTER_API_KEY = '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';
+const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
 
 // Available LLM models (free tier)
 const AVAILABLE_MODELS = {
